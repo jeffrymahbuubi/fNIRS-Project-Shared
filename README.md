@@ -2,6 +2,27 @@
 
 This folder contains a device-agnostic Python environment setup that can be used across different systems (with or without CUDA acceleration).
 
+## Table of Contents
+
+- [Section 1: Onboarding](#section-1-onboarding)
+- [Section 2: Python Environment Setup](#section-2-python-environment-setup)
+  - [Prerequisites](#prerequisites)
+  - [Setup Virtual Environment](#setup-virtual-environment)
+  - [Installation](#installation)
+    - [Option 1: CPU-Only Installation (Default)](#option-1-cpu-only-installation-default)
+    - [Option 2: CUDA-Enabled Installation](#option-2-cuda-enabled-installation)
+  - [Verification](#verification)
+  - [Notes](#notes)
+- [Section 3: Notebook Guide](#section-3-notebook-guide)
+  - [1_fNIRS_data_processing.ipynb](#1_fnirs_data_processingipynb)
+    - [FNIRSDataProcessorMNE](#fnirsdataprocessormne)
+    - [FNIRSDataProcessorHOMER3](#fnirsdataprocessorhomer3)
+    - [Example: Preprocessed fNIRS Data Folder Structure](#example-preprocessed-fnirs-data-folder-structure)
+  - [2_fNIRS_graph_algorithm.ipynb](#2_fnirs_graph_algorithmipynb)
+    - [1. Data Preparation](#1-data-preparation)
+    - [2. Graph Model Initialization](#2-graph-model-initialization)
+    - [3. 5-Fold Cross-Validation Training Pipeline](#3-5-fold-cross-validation-training-pipeline)
+
 ---
 
 ## Section 1: Onboarding
