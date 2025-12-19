@@ -1,0 +1,18 @@
+# ============================================================================
+# PyTorch Geometric Extensions and Temporal GNN
+# ============================================================================
+# These packages require PyTorch to be installed first
+# Install after running: uv pip install -r requirements.txt
+#
+# For CPU-only installation, use:
+# uv pip install -r requirements-pyg-extensions.txt -f https://data.pyg.org/whl/torch-2.6.0+cpu.html
+#
+# For CUDA installation, see README.md for the correct wheel URL
+# ============================================================================
+
+# PyTorch Geometric Extensions
+pyg-lib
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
