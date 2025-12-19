@@ -1,7 +1,5 @@
 # fNIRS Anxiety Project - Shared Environment
 
-This folder contains a device-agnostic Python environment setup that can be used across different systems (with or without CUDA acceleration).
-
 ## Table of Contents
 
 - [Section 1: Onboarding](#section-1-onboarding)
